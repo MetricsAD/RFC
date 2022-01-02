@@ -26,4 +26,4 @@ TiDB 指标离群值异常检测，摆脱监控过程中难以配置阈值的烦
 - 以 TiDB Metrics 时序数据为数据集，通过机器学习算法（傅里叶、时间序列预测等）预测动态阈值范围，并将结果保存在新的指标中。
 - 比较指标实时数据是否在预测的动态阈值范围内，从而判断是否是异常值，如果是异常值，利用 AlertManger 触发告警。
 - 利用 Chaos Mesh 演练故障，以便训练和测试预测模型的准确性。
-- 参考开源项目 https://github.com/AICoE/prometheus-anomaly-detector，应用到 TiDB 异常检测场景中。
+- 参考开源项目 https://github.com/AICoE/prometheus-anomaly-detector ，应用到 TiDB 异常检测场景中。
