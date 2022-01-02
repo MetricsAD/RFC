@@ -21,7 +21,7 @@ TiDB 指标离群值异常检测，摆脱监控过程中难以配置阈值的烦
 
 ### 项目设计
 
-![image](https://user-images.githubusercontent.com/9431724/147870212-a59ebdd7-fed1-4dd4-ac4d-115bfbf0fd22.png)
+![image](https://user-images.githubusercontent.com/9431724/147870733-ff835bad-0469-4205-95e6-21a43ee09d2e.png)
 
 - 以 TiDB Metrics 时序数据为数据集，通过机器学习算法（傅里叶、时间序列预测等）预测动态阈值范围，并将结果保存在新的指标中。
 - 比较指标实时数据是否在预测的动态阈值范围内，从而判断是否是异常值，如果是异常值，利用 AlertManger 触发告警。
