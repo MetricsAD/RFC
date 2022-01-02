@@ -8,7 +8,7 @@
 
 [slsjnp](https://github.com/slsjnp)，就职于奥卡云数据科技，分布式文件系统方向，分布式存储发烧友
 
-[wfnuser](https://github.com/wfnuser)，昵称微扰理论，EMQ X 存储工程师，开源爱好者，极客时间专栏《算法实战高手课》作者
+[wfnuser](https://github.com/wfnuser)，花名微扰理论，EMQ X 工程师，开源爱好者 
 
 ### 项目介绍
 
